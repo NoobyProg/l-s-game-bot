@@ -29,7 +29,7 @@ fs.readdir("./cmds/", (err, files) => {
 });
 
 //Login, Heroku version (Change after test)
-bot.login("NjYzNzU4MzYxMTI0Mjc0MTg3.XhNLlw.WyJFRkcEgeEICK1r8ZWeMhRQli8");
+bot.login(process.env.token);
 
 //Starts the bot and logs the server invite link
 bot.on("ready", async() => {
