@@ -1,6 +1,9 @@
 {
   "name": "lsgamebot",
   "version": "1.0.0",
+  "scripts": {
+    "start": "node bot.js"
+  },
   "description": "L's game",
   "main": "bot.js",
   "scripts": {
