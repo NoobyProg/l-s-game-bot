@@ -28,7 +28,7 @@ fs.readdir("./cmds/", (err, files) => {
 
 });
 
-//Login, Heroku version (Change after test)
+//Login, Glitch version (Change after test)
 bot.login(process.env.token);
 
 //Starts the bot and logs the server invite link
