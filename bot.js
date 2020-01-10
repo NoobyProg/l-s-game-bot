@@ -28,7 +28,7 @@ fs.readdir("./cmds/", (err, files) => {
 
 });
 
-//Login, Glitch version (Change after test)
+//Login
 bot.login(process.env.token);
 
 //Starts the bot and logs the server invite link
